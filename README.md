@@ -3,6 +3,12 @@ Older Pioneer VSX amplifier/receivers require extra carriage returns to be sent 
 
 This custom component fixes that issue.  
 
+## Installation
+1. Copy manifest.json and media_player.py to <config>/custom_components/pioneervsx/ directory
+2. Add configuration below to configuration.yaml
+3. Restart Home Assistant
+4. If required, add a media_player control to the UI
+
 ## Configuration.yaml
 ```yaml
   - platform: pioneervsx
