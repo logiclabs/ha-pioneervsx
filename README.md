@@ -1,7 +1,9 @@
-# Home Assistant Custom Component for Pioneer VSX 920 
-Older Pioneer VSX amplifier/receivers require extra carriage returns to be sent to the receiver before they are ready to accept commands.
+# Home Assistant Custom Component for Pioneer VSX
+Older Pioneer VSX amplifier/receivers require extra carriage returns to be sent to the receiver to wake up the CPU before they are ready to accept commands. This custom component fixes that issue.  
 
-This custom component fixes that issue.  
+## Known models that require wakeup:
+* Pioneer VSX-920
+
 
 ## Installation
 1. Copy manifest.json and media_player.py to <config>/custom_components/pioneervsx/ directory
@@ -21,3 +23,4 @@ This custom component fixes that issue.
 ## Extra Features
 * enabled_sources_only: 
   Limits the list of sources to only those enabled on the Receiver. (true by default, set to false to see all sources)
+  
