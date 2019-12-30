@@ -13,6 +13,7 @@ Older Pioneer VSX amplifier/receivers require extra carriage returns to be sent 
 
 ## Configuration.yaml
 ```yaml
+media_player:
   - platform: pioneervsx
     name: "VSX920"
     host: 192.168.1.2
