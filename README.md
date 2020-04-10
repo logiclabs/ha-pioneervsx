@@ -3,6 +3,7 @@ Older Pioneer VSX amplifier/receivers require extra carriage returns to be sent 
 
 ## Known models that require wakeup:
 * Pioneer VSX-920
+* Pioneer VSX-2021
 
 
 ## Installation
